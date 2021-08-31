@@ -1,2 +1,1 @@
-this is a demo!
-now,we are successful!
+this is a demo!\n now,we are successful!
