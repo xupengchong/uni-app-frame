@@ -47,10 +47,18 @@
 - 分支管理
 
   ```sh
+  # 查看分支
+  git branch
+  # 创建分支
+  git branch xxx
+  # 删除分支
+  git branch -d xxx
   # 分支更名
-  git branch -M main
+  git branch -M xxx
+  # 分支切换
+  git checkout xxx
   # 将当前分支绑定指定的远程仓库源跟分支
-  git branch --set-upstream-to=origin/master master
+  git branch --set-upstream-to=origin/xxx master
   ```
 
 - 配置相关(***--global 全局设置***)
